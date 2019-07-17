@@ -1,8 +1,8 @@
 <template>
 	<g-link class="logo" to="/">
-	  <span class="logo__text">
-	    &larr; {{ $static.metaData.siteName }}
-	  </span>
+		<i class="material-icons">
+			arrow_back_ios
+		</i>
 	</g-link>
 </template>
 
@@ -19,13 +19,13 @@ query {
 	text-decoration: none;
   color: var(--body-color)!important;
   font-size: .9em;
-  
+
 	&__image {
 		vertical-align: middle;
 		border-radius: 99px;
 		height: 40px;
 		width: 40px;
 		margin-right: .5em;
-	}	
+	}
 }
 </style>

@@ -4,7 +4,7 @@
         <!-- List posts -->
         <v-container fluid>
             <v-layout row wrap>
-                <v-flex sm4 pa-2 v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node">
+                <v-flex lg4 pa-2 v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node">
                     <PostCard :post="edge.node"/>
                 </v-flex>
             </v-layout>
