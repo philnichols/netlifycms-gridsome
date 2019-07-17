@@ -1,26 +1,19 @@
 <template>
-    <div>
-        <v-toolbar>
-            <v-toolbar-side-icon></v-toolbar-side-icon>
-            <v-toolbar-title>Title</v-toolbar-title>
-            <v-spacer></v-spacer>
-            <v-toolbar-items class="hidden-sm-and-down">
-                <v-btn flat>Link One</v-btn>
-                <v-btn flat>Link Two</v-btn>
-                <v-btn flat>Link Three</v-btn>
-            </v-toolbar-items>
-        </v-toolbar>
-        <Layout :show-logo="false">
-            <!-- Author intro -->
-            <Author :show-title="true"/>
 
-            <!-- List posts -->
-            <div class="posts">
-                <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
-            </div>
+    <Layout :show-logo="false">
+        <!-- List posts -->
+        <v-container fluid>
+            <v-layout row wrap>
+                <v-flex sm4 pa-2 v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node">
+                    <PostCard :post="edge.node"/>
+                </v-flex>
+            </v-layout>
+        </v-container>
+        <!-- Author intro -->
+        <Author :show-title="true"/>
 
-        </Layout>
-    </div>
+    </Layout>
+
 </template>
 
 <page-query>
