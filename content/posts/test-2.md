@@ -1,5 +1,6 @@
 ---
 title: test3
+author: Phil Nichols
 date: 2019-08-01T09:34:36.852Z
 tags:
   - tag

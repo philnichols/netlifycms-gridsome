@@ -1,5 +1,6 @@
 ---
 title: Markdown test file
+author: Phil Nichols
 date: 2019-02-06T00:00:00.000Z
 tags:
   - Markdown

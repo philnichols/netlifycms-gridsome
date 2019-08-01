@@ -1,0 +1,144 @@
+
+/* COLOURS
+   ================================================== */
+
+/**  --------------  **/
+/**  COLOUR PALETTE  **/
+/**  --------------  **/
+
+/*  text colours  */
+/*  ------------  */
+
+.color-0 {
+	color: #191c2d; /* dark blue*/
+}
+
+.color-1 {
+	color: #ffffff; /* white */
+}
+
+.color-2 {
+	color: #ffffff; /* white*/
+}
+
+.color-3 {
+	color: #000000; /* black */
+}
+
+.color-4 {
+	color: #dce4e4; /* light grey */
+}
+
+.color-5 {
+	color: #edf0f2; /* very light grey*/
+}
+
+.color-6 {
+	color: #191c2d; /* dark blue*/
+}
+
+/*  background colours  */
+/*  ------------------  */
+
+.background-color-0 {
+	background-color: #191c2d; /* dark grey */
+}
+
+.background-color-1 {
+	background-color: #ffffff; /* white */
+}
+
+.background-color-2 {
+	background-color: #ffffff; /* white*/
+}
+
+.background-color-3 {
+	background-color: #000000; /* black */
+}
+
+.background-color-4 {
+	background-color: #dce4e4; /* light grey */
+}
+
+.background-color-5 {
+	background-color: #edf0f2; /* very light grey*/
+}
+
+/*  link colours text colours  */
+/*  -------------------------  */
+
+.color-0 a,
+.color-0 a:visited,
+.color-0 a:hover,
+.color-0 a:active {
+	color: #191c2d; /* dark blue */
+}
+
+.color-1 a,
+.color-1 a:visited,
+.color-1 a:hover,
+.color-1 a:active {
+	color: #ffffff !important; /* white, same as text */
+}
+
+.work-link {
+	cursor: pointer;
+}
+
+.work-link-hover {
+	background-color: #f2af00; /* yellow*/
+	background-image: url('') !important;
+	cursor: pointer;
+
+}
+
+.work-link-hover a {
+
+	color: #191c2d !important;
+}
+
+.color-2 a,
+.color-2 a:visited,
+.color-2 a:hover,
+.color-2 a:active {
+	color: #ffffff; /* white*/
+}
+
+.color-3 a,
+.color-3 a:visited,
+.color-3 a:hover,
+.color-3 a:active {
+	color: #000000; /* black, same as text */
+}
+
+.color-4 a,
+.color-4 a:visited,
+.color-4 a:hover,
+.color-4 a:active {
+	color: #dce4e4; /* light grey */
+}
+
+.color-5 a,
+.color-5 a:visited,
+.color-5 a:hover,
+.color-5 a:active {
+	color: #edf0f2; /* very light grey*/
+}
+
+.border-top {
+	border-top: 1px #191c2d solid;
+}
+/* fix width of container */
+
+.max-width {
+	position: relative;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+	.max-width {
+		margin: 90px auto 0 auto;
+	}
+
+}
