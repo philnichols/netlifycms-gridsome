@@ -164,9 +164,10 @@
         }
 
         .container {
+
             padding-top: 0;
             padding-bottom: 0;
-
+            height: 100%;
         }
 
         .navbar .navbar-collapse a {
