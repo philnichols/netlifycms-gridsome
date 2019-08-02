@@ -6,6 +6,7 @@ tags:
   - Markdown
   - Cover Image
 coverImage: /images/uploads/aug-blog.png
+description: c
 ---
 AR has been around for some time now, but as mobile devices have become more powerful, the technology is finally realising its potential as an accessible and immersive educational tool. We are very excited by the potential of this technology to engage and educate.
 
