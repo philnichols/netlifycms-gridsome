@@ -5,7 +5,7 @@
                 <v-flex xs12>
                     <div class="bg-gradient">x</div>
                     <div class="container navigation-header ">
-                        <b-navbar toggleable="lg" type="dark" variant="info">
+                        <b-navbar toggleable="md" type="dark" variant="info">
                             <b-navbar-brand href="#">
                                 <img :src="require('~/assets/img/logo.png') " alt="Logo">
                             </b-navbar-brand>

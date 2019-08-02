@@ -16,7 +16,7 @@
                 >
                     <div class="container navigation-header ">
 
-                        <b-navbar toggleable="lg" type="dark" variant="info">
+                        <b-navbar toggleable="md" type="dark" variant="info">
 
                             <b-navbar-brand href="#">
                                 <img :src="require('~/assets/img/logo.png') " alt="Logo">
