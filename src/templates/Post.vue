@@ -56,30 +56,6 @@
     import Author from '~/components/Author.vue'
 
     export default {
-        data: {
-
-            currentUrl: null,
-            currentHost: null,
-            currentProtocol: null
-
-        },
-
-        created: function(){
-
-            this.currentUrl = window.location.href;
-            this.currentHost = window.location.host;
-            this.currentProtocol = window.location.protocol;
-
-
-
-            console.log("window.location.protocol", window.location.protocol);
-
-            console.log("window.location", window.location);
-
-            console.log("window.location", window.location.host);
-
-
-        },
         components: {
             Author,
             PostMeta,
@@ -106,8 +82,8 @@
                         content: this.$page.post.description,
                     },
                     {name: 'og:type', content: 'website'},
-                    {name: 'og:url', content: this.currentUrl},
-                    {name: 'og:image', content: this.currentProtocol+'//'+this.currentHost+this.$page.post.coverImage},
+                    {name: 'og:url', content: 'https://www.desq.co.uk'},
+                    {name: 'og:image', content: 'https://blog.desq.co.uk'+this.$page.post.coverImage},
                     // Twitter Card
                     {
                         key: 'twitter:title',
@@ -121,7 +97,7 @@
                     },
                     {name: 'twitter:card', content: 'summary'},
                     {name: 'twitter:site', content: '@DESQ'},
-                    {name: 'twitter:image', content: this.currentProtocol+'//'+this.currentHost+this.$page.post.coverImage},
+                    {name: 'twitter:image', content: 'https://blog.desq.co.uk'+this.$page.post.coverImage},
                     {name: 'twitter:image:alt', content: this.$page.post.title}
                 ]
 
