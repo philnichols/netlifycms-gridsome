@@ -97,6 +97,10 @@
 <style lang="scss">
 
     .container {
+        max-width: 100% !important;
+    }
+
+    .container {
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -135,7 +139,6 @@
     }
 
 
-
     .navbar-brand {
         padding: 0;
         margin: 0;
@@ -172,14 +175,19 @@
         }
 
         .navbar .navbar-collapse a {
-
             background: #0D2538;
-
-            padding-bottom: 16px;
-            padding-top: 16px;
-
-
+            padding-bottom: 16px !important;
+            padding-top: 16px !important;
         }
+
+        .navbar .navbar-brand {
+
+            padding: 0;
+
+            margin-top: 12px;
+            margin-left: 10px;
+        }
+
 
     }
 

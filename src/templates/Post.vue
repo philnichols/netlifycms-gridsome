@@ -341,13 +341,19 @@
         }
 
         .post .navbar .navbar-collapse a {
-
             background: #0D2538;
+            padding-bottom: 16px !important;
+            padding-top: 16px !important;
 
-            padding-bottom: 16px;
-            padding-top: 16px;
+        }
 
 
+        .navbar .navbar-brand {
+
+            padding: 0;
+
+            margin-top: 12px;
+            margin-left: 10px;
         }
 
         a.link-back,
