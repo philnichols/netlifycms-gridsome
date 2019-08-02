@@ -14,7 +14,8 @@
                }"
 
                 >
-                    <div class="container navigation-header " >
+                    <div class="container navigation-header ">
+
                         <b-navbar toggleable="lg" type="dark" variant="info">
 
                             <b-navbar-brand href="#">
@@ -24,14 +25,14 @@
                             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
                             <b-collapse id="nav-collapse" is-nav>
-                                <!-- Right aligned nav items -->
-                                <b-link class="ml-auto">
-                                    <b-link>HOME</b-link>
-                                    <b-link>WORK</b-link>
-                                    <b-link>OUR STORY</b-link>
-                                    <b-link>BLOG</b-link>
-                                    <b-link style="    margin-right: -15px;">CONTACT</b-link>
-                                </b-link>
+
+                                <b-navbar-nav class="ml-auto">
+                                    <b-nav-item href="http://www.desq.co.uk/index.html">HOME</b-nav-item>
+                                    <b-nav-item href="http://www.desq.co.uk/work.html">WORK</b-nav-item>
+                                    <b-nav-item href="http://www.desq.co.uk/our-story.html">OUR STORY</b-nav-item>
+                                    <b-nav-item href="/">BLOG</b-nav-item>
+                                    <b-nav-item href="http://www.desq.co.uk/contact.html">CONTACT</b-nav-item>
+                                </b-navbar-nav>
                             </b-collapse>
                         </b-navbar>
                     </div>
@@ -133,10 +134,55 @@
 
     }
 
+
+
+    .navbar-brand {
+        padding: 0;
+        margin: 0;
+        margin-top: -15px;
+        width: 118px;
+    }
+
+
     .navigation {
         border: none;
         transition: background-color 0.6s ease;
     }
+
+    .navbar-collapse {
+        position: relative;
+        z-index: 1;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .navigation-header {
+            height: 90px;
+            background: #0D2538;
+
+        }
+
+
+        .max-width {
+            margin: 0 auto;
+        }
+        .navbar .navbar-collapse {
+            ul li {
+                margin-bottom: 0;
+            }
+        }
+
+        .navbar .navbar-collapse a {
+
+            background: #0D2538;
+
+            padding-bottom: 16px;
+            padding-top: 16px;
+
+
+        }
+
+    }
+
 </style>
 
 

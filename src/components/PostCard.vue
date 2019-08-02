@@ -4,7 +4,7 @@
       <g-image alt="Cover image" v-if="post.coverImage" class="post-card__image" :src="post.coverImage" />
     </div>
     <div class="post-card__content">
-      <h5 class="post-card__title" v-html="post.title" />
+      <h5 class="post-card__title my-4" v-html="post.title" />
       <!--
       <div class="post-card__description" v-html="post.description" />
       -->
@@ -32,7 +32,7 @@ export default {
   //margin-bottom: var(--space);
   position: relative;
 
-  min-height: 400px;
+  min-height: 300px;
 
   &__header {
     margin-left: calc(var(--space) * -1);
@@ -52,7 +52,10 @@ export default {
   }
 
   &__title {
+    min-height: 60px;
+    font-weight: 800;
     margin-top: 0;
+    font-size: 1.4em;
   }
 
   &:hover {
@@ -76,5 +79,17 @@ export default {
     text-indent: -9999px;
     z-index: 0;
   }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .post-card {
+    min-height: auto;
+    &__title {
+      min-height: 30px;
+
+    }
+  }
+
 }
 </style>
