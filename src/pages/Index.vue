@@ -16,7 +16,10 @@
                 >
                     <div class="container navigation-header " >
                         <b-navbar toggleable="lg" type="dark" variant="info">
-                            <b-navbar-brand href="#">NavBar</b-navbar-brand>
+
+                            <b-navbar-brand href="#">
+                                <img :src="require('~/assets/img/logo.png') " alt="Logo">
+                            </b-navbar-brand>
 
                             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 

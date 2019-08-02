@@ -36,10 +36,10 @@
                         arrow_back_ios
                     </i>
                     <span>Back</span></g-link>
-                <h1 class="post-title__text text-xs-center">
+                <h1 class="post-title text-xs-center my-4">
                     {{ $page.post.title }}
                 </h1>
-                <PostMeta class="text-xs-center my-3" :post="$page.post"/>
+                <PostMeta class="text-xs-center my-4" :post="$page.post"/>
                 <div class="post__content" v-html="$page.post.content">
                 </div>
             </div>
@@ -150,8 +150,11 @@
     }
 
     .post-title {
-        padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
-        text-align: center;
+        font-size: 2.5em;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 800;
     }
 
     .post {
@@ -259,6 +262,16 @@
         top: 0px;
         left: -30%;
     }
+    a,
+    a:hover,
+    a:active,
+    a:visited {
+        color: #000000;
+        text-decoration: underline;
+
+    }
+
+
 
     a.link-back,
     a.link-back:hover,
@@ -267,8 +280,6 @@
 
         line-height: 50px;
         display: inline-block;
-
-        color: #000000;
         font-weight: 600;
         font-size: 1.1em;
 

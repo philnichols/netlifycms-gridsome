@@ -32,6 +32,8 @@ export default {
   //margin-bottom: var(--space);
   position: relative;
 
+  min-height: 400px;
+
   &__header {
     margin-left: calc(var(--space) * -1);
     margin-right: calc(var(--space) * -1);
