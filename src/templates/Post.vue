@@ -303,6 +303,12 @@
 
     @media only screen and (max-width: 767px) {
 
+
+        .container {
+            max-width: 100% !important;
+        }
+
+
         .content-box {
             margin-bottom: 15px;
         }

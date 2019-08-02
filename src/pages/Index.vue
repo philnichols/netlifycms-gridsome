@@ -95,11 +95,6 @@
 </script>
 
 <style lang="scss">
-
-    .container {
-        max-width: 100% !important;
-    }
-
     .container {
         padding-top: 0;
         padding-bottom: 0;
@@ -158,6 +153,13 @@
     }
 
     @media only screen and (max-width: 767px) {
+
+
+
+        .container {
+            max-width: 100% !important;
+        }
+
         .navigation-header {
             height: 90px;
             background: #0D2538;
