@@ -1,23 +1,26 @@
 ---
-title: A post with a cover image
+title: Behind the scenes of augmented reality
 date: 2019-01-07T00:00:00.000Z
 tags:
   - Markdown
   - Cover Image
 coverImage: /images/uploads/aug-blog.png
-description: >-
-  **Markdown** is intended to be as easy-to-read and easy-to-write as is
-  feasible. Readability, however, is emphasized above all else. A
-  Markdown-formatted document should be publishable as-is, as plain text,
-  without looking like it's been marked up with tags or formatting instructions.
+description: '****'
 ---
-
-Readability, however, is emphasized above all else. A Markdown-formatted
-document should be publishable as-is, as plain text, without looking
-like it's been marked up with tags or formatting instructions. 
-
-While Markdown's syntax has been influenced by several existing text-to-HTML filters -- including [Setext](http://docutils.sourceforge.net/mirror/setext.html), [atx](http://www.aaronsw.com/2002/atx/), [Textile](http://textism.com/tools/textile/), [reStructuredText](http://docutils.sourceforge.net/rst.html),
-[Grutatext](http://www.triptico.com/software/grutatxt.html), and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of
-inspiration for Markdown's syntax is the format of plain text email.
+AR has been around for some time now, but as mobile devices have become more powerful, the technology is finally realising its potential as an accessible and immersive educational tool. We are very excited by the potential of this technology to engage and educate.
 
 
+
+NBCUniversal (NBCUI), one of the world’s leading media and entertainment companies, asked us to create a resource that would enable new hires to get on-board swiftly. So, we produced a mobile / tablet based game that immerses new starters into the NBCUI culture using Augmented Reality (AR).
+
+
+
+Whilst playing the game, new starters are placed into a “virtual treasure hunt” that guides them around a physical NBCUI building. Searching for strategically placed AR posters, the game rewards players with AR experiences that subtly educate them about NBCUI operations.
+
+
+
+The AR game uses the device’s camera to scan our specially designed posters. The game then brings them to life by triggering: videos, graphics, sounds and 3D animations that “jump” out of the screen and layer them over the actual physical environment. After interacting with each AR object, each “experience” is “collected”. Once the player has collected all of the experiences, a reward is given. This playful immersion eases the new starters into the NBCUI environment as well as directing them around the building they will be working in.
+
+
+
+We predict a bright future for AR as an effective learning tool.
