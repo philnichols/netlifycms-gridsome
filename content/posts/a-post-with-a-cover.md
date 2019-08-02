@@ -1,7 +1,7 @@
 ---
 title: Behind the scenes of augmented reality
 author: Phil Nichols
-date: 2019-01-07T00:00:00.000Z
+date: 2019-08-01T23:00:00.000Z
 tags:
   - Markdown
   - Cover Image
