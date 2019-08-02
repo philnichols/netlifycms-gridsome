@@ -107,7 +107,7 @@
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         border-radius: 0;
-        padding: 35px 20px;
+        padding: 35px 20px !important;
         font-size: 18px;
         font-weight: 400;
         text-transform: uppercase;
